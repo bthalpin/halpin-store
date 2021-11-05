@@ -23,8 +23,8 @@ function App() {
   const [home,setHome] = useState(true)
   const [total,setTotal] = useState(0)
   const [storeDepartment,setStoreDepartment] = useState([])
-  
-  const [quantity,setQuantity] = useState([])
+  const [totalItems,setTotalItems] = useState()
+  const [quantity,setQuantity] = useState({})
   
 
 console.log(order)
@@ -72,8 +72,8 @@ console.log(order)
   
   const removeFromCart= (item,i)=>{
     let newQuant =quantity
-    newQuant.splice(i,1)
-    setQuantity([...newQuant])
+    delete newQuant[item.id]
+    setQuantity({...newQuant})
     setCheckout(checkout.filter((product)=>product.id!==item.id))
     
     console.log('i',i)
@@ -85,7 +85,7 @@ console.log(order)
     <div className = "main">
       <div>
       <div className="navContainer">
-      <Nav openModal = {openModal} filter = {filter} setFilter = {setFilter} setCartIsOpen = {setCartIsOpen} checkout = {checkout} setHome = {setHome} setCategory = {setCategory} total = {total} quantity = {quantity} category = {category}/>
+      <Nav openModal = {openModal} filter = {filter} setFilter = {setFilter} setCartIsOpen = {setCartIsOpen} checkout = {checkout} setHome = {setHome} setCategory = {setCategory} total = {total} quantity = {quantity} category = {category} totalItems = {totalItems}/>
       
     <Navigation sort = {sort} category = {category} home = {home}/>
       </div>
@@ -93,14 +93,14 @@ console.log(order)
       <div className = "container">
       <Departments setHome = {setHome} setCategory = {setCategory} storeDepartment = {storeDepartment}/>
       <DropDown storeDepartment = {storeDepartment} setCategory = {setCategory} modalIsOpen = {modalIsOpen} setModalIsOpen = {setModalIsOpen} setHome = {setHome}/>
-      <Cart cartIsOpen = {cartIsOpen} setCartIsOpen = {setCartIsOpen} checkout = {checkout} setCheckout = {setCheckout} removeFromCart = {removeFromCart} quantity = {quantity} setQuantity = {setQuantity} total = {total} setTotal = {setTotal}/>
+      <Cart cartIsOpen = {cartIsOpen} setCartIsOpen = {setCartIsOpen} checkout = {checkout} setCheckout = {setCheckout} removeFromCart = {removeFromCart} quantity = {quantity} setQuantity = {setQuantity} total = {total} setTotal = {setTotal} setTotalItems = {setTotalItems}/>
       </div>
       :
     <div className = "container">
 
     <NavLeft setCategory = {setCategory} storeDepartment = {storeDepartment} />
     {console.log(storeDepartment)}
-    <Cart cartIsOpen = {cartIsOpen} setCartIsOpen = {setCartIsOpen} checkout = {checkout} setCheckout = {setCheckout} removeFromCart = {removeFromCart} quantity = {quantity} setQuantity = {setQuantity} total = {total} setTotal = {setTotal}/>
+    <Cart cartIsOpen = {cartIsOpen} setCartIsOpen = {setCartIsOpen} checkout = {checkout} setCheckout = {setCheckout} removeFromCart = {removeFromCart} quantity = {quantity} setQuantity = {setQuantity} total = {total} setTotal = {setTotal} setTotalItems = {setTotalItems}/>
     <DropDown storeDepartment = {storeDepartment} setCategory = {setCategory} modalIsOpen = {modalIsOpen} setModalIsOpen = {setModalIsOpen} setHome = {setHome}/>
       <Products products = {products} filtered = {filtered} setCheckout = {setCheckout} checkout = {checkout} removeFromCart = {removeFromCart} quantity = {quantity} setQuantity = {setQuantity}/>
    {console.log('quantity',quantity)}

@@ -14,7 +14,7 @@
     border-radius:0.2rem;
     /* display:flex; */
     
-    transition:all 0.2s ease-in-out;
+    transition:all 0.15s ease-in-out;
     max-width: 20rem;
     padding:1rem;
 }
