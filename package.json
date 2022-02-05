@@ -2,7 +2,7 @@
   "name": "store",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bthalpin.github.io/store",
+  "homepage": "http://bthalpin.github.io/halpin-store",
   "dependencies": {
     "@stripe/react-stripe-js": "^1.7.0",
     "@stripe/stripe-js": "^1.22.0",
