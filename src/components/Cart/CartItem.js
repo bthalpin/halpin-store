@@ -13,7 +13,7 @@ const CartItem = ({item,removeFromCart,setQuantity,i,quantity})=>{
     return(
         <div className = "cartItem">
             <div>
-                <img src = {item.picture} alt ='oops' width="30vw"></img>
+                <img src = {item.url} alt ='oops' width="30vw"></img>
             </div>
 <div>
             {item.name}

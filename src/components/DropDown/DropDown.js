@@ -49,6 +49,7 @@ const DropDown = ({modalIsOpen,setModalIsOpen,setHome,setCategory,storeDepartmen
     }
     const shop = (department)=>{
       setCategory(department)
+      console.log(department,'this is dep')
       closeModal()
     }
     return(
