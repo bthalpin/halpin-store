@@ -11,7 +11,7 @@ const Departments = ({storeDepartment,setCategory,setHome})=>{
     return(
         <div className = "mainDepartment">
             <div className = "Departments">
-            <div className = "mainAd"><img className = "mainadimg" src="https://i0.wp.com/www.mobilegeeks.com/wp-content/uploads/2015/05/Intel-Concept-Store-1.jpg?zoom=2&resize=837%2C500&ssl=1&mrf-size=m" ></img></div>
+            <div className = "mainAd"><img className = "mainadimg" src="../../images/HalpinElectronics.jpg" ></img></div>
             </div>
             <div className = "Departments">
         {storeDepartment?
