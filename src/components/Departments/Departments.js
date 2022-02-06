@@ -1,6 +1,7 @@
 import React,{ useState } from 'react';
 import Department from './Department';
 import './Departments.css';
+import HalpinElectronics from '../../images/HalpinElectronics.jpg';
 
 const Departments = ({storeDepartment,setCategory,setHome})=>{
     console.log(storeDepartment)
@@ -11,7 +12,7 @@ const Departments = ({storeDepartment,setCategory,setHome})=>{
     return(
         <div className = "mainDepartment">
             <div className = "Departments">
-            <div className = "mainAd"><img className = "mainadimg" src="../../images/HalpinElectronics.jpg" ></img></div>
+            <div className = "mainAd"><img className = "mainadimg" src={HalpinElectronics} ></img></div>
             </div>
             <div className = "Departments">
         {storeDepartment?
