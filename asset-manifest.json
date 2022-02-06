@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/halpin-store/static/css/main.a560cfd3.chunk.css",
-    "main.js": "/halpin-store/static/js/main.f4369ae0.chunk.js",
-    "main.js.map": "/halpin-store/static/js/main.f4369ae0.chunk.js.map",
+    "main.js": "/halpin-store/static/js/main.4dec61f0.chunk.js",
+    "main.js.map": "/halpin-store/static/js/main.4dec61f0.chunk.js.map",
     "runtime-main.js": "/halpin-store/static/js/runtime-main.573f83d6.js",
     "runtime-main.js.map": "/halpin-store/static/js/runtime-main.573f83d6.js.map",
     "static/js/2.b079cf7c.chunk.js": "/halpin-store/static/js/2.b079cf7c.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/halpin-store/index.html",
     "static/css/main.a560cfd3.chunk.css.map": "/halpin-store/static/css/main.a560cfd3.chunk.css.map",
     "static/js/2.b079cf7c.chunk.js.LICENSE.txt": "/halpin-store/static/js/2.b079cf7c.chunk.js.LICENSE.txt",
+    "static/media/HalpinElectronics.55a90d16.jpg": "/halpin-store/static/media/HalpinElectronics.55a90d16.jpg",
     "static/media/delete.ea6c2f93.png": "/halpin-store/static/media/delete.ea6c2f93.png",
     "static/media/logo512.dccc7eb1.png": "/halpin-store/static/media/logo512.dccc7eb1.png"
   },
@@ -19,6 +20,6 @@
     "static/js/runtime-main.573f83d6.js",
     "static/js/2.b079cf7c.chunk.js",
     "static/css/main.a560cfd3.chunk.css",
-    "static/js/main.f4369ae0.chunk.js"
+    "static/js/main.4dec61f0.chunk.js"
   ]
 }
