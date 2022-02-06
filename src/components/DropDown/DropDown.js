@@ -62,9 +62,10 @@ const DropDown = ({modalIsOpen,setModalIsOpen,setHome,setCategory,storeDepartmen
         ><div>
           <ul>
             
-          {storeDepartment?.map((dep)=>{
+          {storeDepartment?
+          storeDepartment.map((dep)=>{
             return <li onClick={()=>shop(dep.name)}>{dep.name}</li>
-          })}
+          }):<></>}
           </ul>
           {/* <h1 onClick = {()=>shop('Men Suit')}>Men</h1>
           
