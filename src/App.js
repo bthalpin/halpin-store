@@ -51,7 +51,7 @@ console.log(order)
   useEffect(()=>{
     if (category!=='home'){
 
-      setFiltered(products.filter((item)=>(item.category===category||category==='all')&&(filter===''||item.name.toUpperCase().includes(filter.toUpperCase())||item.description.toUpperCase().includes(filter.toUpperCase())||item.department.toUpperCase().includes(filter.toUpperCase()))))
+      setFiltered(products.filter((item)=>(item.category===category||category==='all')&&(filter===''||item?.name?.toUpperCase()?.includes(filter.toUpperCase())||item?.description?.toUpperCase()?.includes(filter.toUpperCase())||item?.department?.toUpperCase()?.includes(filter.toUpperCase()))))
       // setHome(false)
     }
   },[filter,products,category,storeDepartment])
