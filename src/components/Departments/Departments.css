@@ -25,6 +25,7 @@
     grid-column-end: 4;
     position:relative;
     aspect-ratio: 16/9;
+    max-height: 40vh;
     /* background-image: url('https://thumbs.dreamstime.com/b/rugs-shelves-home-goods-store-rugs-shelves-home-goods-store-207030544.jpg'); */
     /* background-size: 100%; */
     /* background-position-y: center; */
