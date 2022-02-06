@@ -29,10 +29,9 @@ function App() {
   const [payment,setPayment] = useState(false);
   const [success,setSuccess] = useState(false);
   
-
 console.log(order)
   useEffect(()=>{
-    fetch('https://halpin-store/herokuapp.com/products/',{
+    fetch('https://halpin-store.herokuapp.com/products/',{
       method:'post',
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({
@@ -58,7 +57,7 @@ console.log(order)
   },[filter,products,category,storeDepartment])
 
   useEffect(()=>{
-    fetch('https://halpin-store/herokuapp.com/departments/',{
+    fetch('https://halpin-store.herokuapp.com/departments/',{
       method:'get',
       headers:{'Content-Type':'application/json'}
     }
