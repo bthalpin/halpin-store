@@ -91,7 +91,9 @@
     .Modal{
         display:block;
     }
-    .productDesc{
-        padding:0.1rem;
+    .productInfo{
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    
     }
 }
