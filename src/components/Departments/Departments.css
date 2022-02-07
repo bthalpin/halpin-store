@@ -46,7 +46,7 @@
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    border-radius:50%;
+    border-radius:5%;
 
     object-fit: cover;
 }
@@ -55,6 +55,7 @@
     left:50%;
     bottom:0%;
     transform:translateX(-50%);
+    font-weight: bold;
 }
 .Footer{
     text-align: center;
