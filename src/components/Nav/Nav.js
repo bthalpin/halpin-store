@@ -35,9 +35,9 @@ console.log(event)
                 <div className="search"><input type = "text" placeholder = "Search" onInput = {search}></input>
                     
                 </div>
-                <div>
+                {/* <div>
                     Sign In
-                </div>
+                </div> */}
                 <div className = "cartContainer" onClick = {closeCart}>
                     <img src = {cart} alt = 'Cart' width = "40rem"></img>
                     <div className = "itemCount">{totalItems}</div>
