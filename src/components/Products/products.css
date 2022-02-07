@@ -87,3 +87,8 @@
     height:1rem;
     margin-left:auto;
 }
+@media (max-width:500px){
+    .Modal{
+        display:block;
+    }
+}
