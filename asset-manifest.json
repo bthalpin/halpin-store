@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/halpin-store/static/css/main.22a81b4d.chunk.css",
-    "main.js": "/halpin-store/static/js/main.6a6c8486.chunk.js",
-    "main.js.map": "/halpin-store/static/js/main.6a6c8486.chunk.js.map",
+    "main.js": "/halpin-store/static/js/main.d688cd9a.chunk.js",
+    "main.js.map": "/halpin-store/static/js/main.d688cd9a.chunk.js.map",
     "runtime-main.js": "/halpin-store/static/js/runtime-main.573f83d6.js",
     "runtime-main.js.map": "/halpin-store/static/js/runtime-main.573f83d6.js.map",
     "static/js/2.b079cf7c.chunk.js": "/halpin-store/static/js/2.b079cf7c.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.573f83d6.js",
     "static/js/2.b079cf7c.chunk.js",
     "static/css/main.22a81b4d.chunk.css",
-    "static/js/main.6a6c8486.chunk.js"
+    "static/js/main.d688cd9a.chunk.js"
   ]
 }
