@@ -68,7 +68,7 @@ const CheckoutForm = ({total,setPayment,setCheckout,success,setSuccess,checkout,
         <>
         {!success?
         <>
-        <button onClick={goBack}>&lt; Back</button>
+        <button className="checkoutButton"onClick={goBack}>&lt; Back</button>
         
         <div className="checkoutTotal">
         <h2>Your total is {total}</h2>
@@ -91,7 +91,7 @@ const CheckoutForm = ({total,setPayment,setCheckout,success,setSuccess,checkout,
                     
                 </div>
             </fieldset>
-            <button>Submit</button>            
+            <button className="checkoutButton">Submit</button>            
             <p>{cardError}</p>
         </form>
         </>

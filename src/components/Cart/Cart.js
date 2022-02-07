@@ -80,9 +80,9 @@ const Cart = ({cartIsOpen,setCartIsOpen,checkout,setCheckout,removeFromCart,quan
               Total {'$'+total?.toFixed(2)}
               </div>
               <div className = "checkoutArea">
-              <button className = "checkoutButton" onClick = {checkOut}>Check Out</button>
+              <button className = "cartButton" onClick = {checkOut}>Check Out</button>
        
-       <button className = "checkoutButton" onClick = {closeCart}>Close</button>
+       <button className = "cartButton" onClick = {closeCart}>Close</button>
        
               </div>
          

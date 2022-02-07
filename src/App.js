@@ -141,6 +141,11 @@ const closeSuccess = () =>{
   return (
     <div className = "main">
       <div>
+      {payment?
+      <CheckoutCart total={total} setPayment = {setPayment} setCheckout={setCheckout} success={success} setSuccess={setSuccess} checkout={checkout} quantity = {quantity} />
+      :
+      <div>
+
       <div className="navContainer">
       <Nav openModal = {openModal} filter = {filter} setFilter = {setFilter} setCartIsOpen = {setCartIsOpen} checkout = {checkout} setHome = {setHome} setCategory = {setCategory} total = {total} quantity = {quantity} category = {category} totalItems = {totalItems}/>
       
@@ -159,10 +164,8 @@ const closeSuccess = () =>{
 
                 </Modal>
     </div>
-      {payment?
-      <CheckoutCart total={total} setPayment = {setPayment} setCheckout={setCheckout} success={success} setSuccess={setSuccess} checkout={checkout} quantity = {quantity} />
-      :
-      category==='home'?
+      
+      {category==='home'?
       <div className = "container">
       <Departments setHome = {setHome} setCategory = {setCategory} storeDepartment = {storeDepartment}/>
       <DropDown storeDepartment = {storeDepartment} setCategory = {setCategory} modalIsOpen = {modalIsOpen} setModalIsOpen = {setModalIsOpen} setHome = {setHome}/>
@@ -179,9 +182,9 @@ const closeSuccess = () =>{
    {console.log('quantity',quantity)}
     </div>
     }
+      </div>}
+      
       </div>
-      
-      
       
     </div>
   );

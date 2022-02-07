@@ -107,7 +107,13 @@
   .checkoutTotal{
     text-align: center;
   }
-  
+  .checkoutButton{
+    margin:0.4rem;
+    background:rgb(0, 174, 255);
+    color:white;
+    border-radius:0.3rem;
+    width:5rem;
+}
   @keyframes loading {
     0% {
       -webkit-transform: rotate(0deg);
