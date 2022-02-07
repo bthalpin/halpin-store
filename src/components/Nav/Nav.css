@@ -32,6 +32,12 @@
 }
 .search{
     padding:0.4rem 1rem;
+    
+}
+
+.search>input{
+    width:40vw;
+    max-width:12rem;
 }
 .cartContainer{
     position:relative;
