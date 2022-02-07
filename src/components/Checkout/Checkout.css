@@ -107,6 +107,20 @@
   .checkoutTotal{
     text-align: center;
   }
+  .formInput{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    justify-content: center;
+  }
+  .inputField{
+    padding:0.1rem;
+  }
+  #first,#last{
+    margin-left:0.6rem;
+  }
+  #email{
+    margin-left:0.1rem;
+  }
   .checkoutButton{
     margin:0.4rem;
     background:rgb(0, 174, 255);
