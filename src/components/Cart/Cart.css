@@ -67,3 +67,11 @@
         justify-content: space-between;
     }
 }
+@media (max-width:270px){
+    .Cart{
+        width:95vw;
+    }
+    .shoppingCart{
+        width:100%;
+    }
+}
