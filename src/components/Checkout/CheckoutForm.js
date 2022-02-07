@@ -71,7 +71,7 @@ const CheckoutForm = ({total,setPayment,setCheckout,success,setSuccess,checkout,
         <button className="checkoutButton"onClick={goBack}>&lt; Back</button>
         
         <div className="checkoutTotal">
-        <h2>Your total is {total}</h2>
+        <h2>Your total is ${total}</h2>
             </div>
         <form onSubmit={handleSubmit}>
             <fieldset className='FormGroup'>
