@@ -15,7 +15,8 @@
     /* display:flex; */
     
     transition:all 0.15s ease-in-out;
-    max-width: 20rem;
+    max-width: 12rem;
+    max-height:18rem;
     padding:1rem;
 }
 
@@ -36,7 +37,7 @@
 }
 .productImg{
     width:100%;
-    max-width:35vh;
+    /* max-width:35vh; */
 }
 .Modal{
     position: absolute;

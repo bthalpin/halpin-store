@@ -10,9 +10,9 @@ const Product = ({item,productInfo,setProductInfo,openInfo,addToCart}) => {
     return (
         <div key ={id} className = "product" onClick = {()=>openInfo(item)}>
             <img className = "" src = {url} alt="oops" width="80%" ></img>
-            <h1 className = "productName" >{name}</h1>
+            <h3 className = "productName" >{name}</h3>
             {console.log('localhost:8000/static/images/'+url,'url')}
-            <p>{description}</p>
+            {/* <p>{description}</p> */}
             <p className = "productPrice" >${parseFloat(price).toFixed(2)}</p>
             {quantity>0&&quantity<10?
             
