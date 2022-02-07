@@ -32,7 +32,7 @@ console.log(event)
                 </div>
             </div>
             <div className = "navRight">
-                <div><input type = "text" placeholder = "Search" onInput = {search}></input>
+                <div className="search"><input type = "text" placeholder = "Search" onInput = {search}></input>
                     
                 </div>
                 <div>

@@ -8,7 +8,7 @@
     justify-content: space-between;
     /* top:0; */
     /* background:rgb(167, 166, 166); */
-    padding:1rem;
+    padding:0.75rem 0rem 1rem 1rem;
     /* box-shadow: 0.2rem 0.2rem 0.3rem grey; */
     width:97vw;
     /* position:fixed; */
@@ -16,19 +16,22 @@
 .navRight,.navLeft{
     display:flex;
 }
-.navRight>div,.navLeft>div{
+.navLeft>div{
     padding:0 1vw;
 }
 .subNav{
     display:flex;
-    width:98vw;
+    width:100vw;
     box-shadow: 0rem 0rem 0.8rem 0.2rem grey;
     justify-content: space-between;
     height:3.45rem;
-    padding:0rem 1vw;
+    /* padding:0rem 1vw; */
     /* position:fixed; */
     /* top:5rem; */
     /* overflow: hidden; */
+}
+.search{
+    padding:0.4rem 1rem;
 }
 .cartContainer{
     position:relative;
@@ -50,10 +53,11 @@
 }
 .location{
     display:flex;
+    padding-left:1vw;
 }
 .filter{
     margin:0.95rem 0;
-    /* padding-right:1rem; */
+    padding-right:1rem;
 }
 .sideBar{
     width:10rem;
