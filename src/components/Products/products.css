@@ -91,4 +91,7 @@
     .Modal{
         display:block;
     }
+    .productDesc{
+        padding:0.1rem;
+    }
 }
