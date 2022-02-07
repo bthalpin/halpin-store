@@ -13,12 +13,15 @@ const CartItem = ({item,removeFromCart,setQuantity,i,quantity})=>{
     return(
         <div className = "cartItem">
             <div>
+            <div>
                 <img src = {item.url} alt ='oops' width="30vw"></img>
             </div>
 <div>
             {item.name}
         </div>
-        <div>
+            </div>
+            <div>
+            <div>
             {'$'+parseFloat(item.price).toFixed(2)}
         </div>
         <div>
@@ -33,6 +36,8 @@ const CartItem = ({item,removeFromCart,setQuantity,i,quantity})=>{
         </div>
         <button className="checkoutButton" onClick = {()=>removeFromCart(item,i)}>Remove</button>
         </div>
+            </div>
+        
         
     )    
 }
