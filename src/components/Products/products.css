@@ -90,10 +90,11 @@
 @media (max-width:500px){
     .Modal{
         display:block;
+        max-height:40vh;
     }
     .productInfo{
-        display:grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        display:block;
+        /* grid-template-rows: 1fr 1fr 1fr; */
     
     }
 }
