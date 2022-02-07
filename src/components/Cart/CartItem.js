@@ -31,7 +31,7 @@ const CartItem = ({item,removeFromCart,setQuantity,i,quantity})=>{
                 <option value = '5'>5</option>
             </select> */}
         </div>
-        <button onClick = {()=>removeFromCart(item,i)}>Remove</button>
+        <button className="checkoutButton" onClick = {()=>removeFromCart(item,i)}>Remove</button>
         </div>
         
     )    
